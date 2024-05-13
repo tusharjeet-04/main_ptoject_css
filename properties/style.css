@@ -1,0 +1,247 @@
+*{
+    font-family: sans-serif;
+}
+
+    .header{
+        display: flex;
+        justify-content: space-around;
+        gap: 300px;
+        line-height: 50px;
+    }
+    .left-header{
+        display: flex;
+        gap: 30px;
+        color: gray;
+    }
+    .right-header{
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .circle1{
+        border: 1px solid grey;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-image: url(./9034971_logo_facebook_icon.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .circle2{
+        border: 1px solid grey;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .circle3{
+        border: 1px solid grey;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-image: url(./104501_twitter_bird_icon.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .circle4{
+        border: 1px solid grey;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-nav{
+        display: flex;
+        justify-content: space-around;
+        gap: 100px;
+        align-items: center;
+        line-height: 100px;
+    }
+    .left-nav{
+        font-size: 28px;
+        font-weight:bolder;
+    }
+    .right-nav{
+        display: flex;
+        gap: 60px;
+        align-items: center;
+        height: auto;
+    }
+    .schedule{
+        color: white;
+        border: 1px none red;
+        height: 30px;
+        background-color: black;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+    }
+.image1{
+    background-image: url(./page-heading-bg.jpg);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home{
+    border: 1px solid white;
+    width: 200px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+.properties{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+
+li{
+    display: flex;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.filter-properties{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+   
+}
+.main-box{
+    display: grid;
+    grid-template-rows: 600px 600px 600px;
+    grid-template-columns: 400px 400px 400px;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 80px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.one{
+   
+    grid-template-rows:1/2 ;
+    grid-template-columns:1/2;
+}
+.two{
+    grid-template-rows:2/3 ;
+    grid-template-columns:1/2 ;
+}
+.three{
+    grid-template-rows:3/4 ;
+    grid-template-columns:1/2 ;
+}
+.four{
+    grid-template-rows:1/2 ;
+    grid-template-columns:2/3 ;
+}
+.five{
+    grid-template-rows:2/3 ;
+    grid-template-columns: 2/3;
+}
+.six{
+    grid-template-rows:3/4 ;
+    grid-template-columns:2/3;
+}
+.seven{
+    grid-template-rows:1/2 ;
+    grid-template-columns:3/4 ;
+}
+.eight{
+    border-radius: 10px;
+    grid-template-rows:2/3 ;
+    grid-template-columns:3/4 ;
+}
+.nine{
+    grid-template-rows:3/4 ;
+    grid-template-columns:3/4 ;
+}
+.pic{
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px none red;
+    border-radius: 10px;
+    width: 350px;
+    height: 260px;
+    margin-top: 20px; 
+}
+.pic1{
+    background-image: url(./property-01.jpg);
+}
+.pic2{
+    background-image: url(./property-02.jpg);
+}
+.pic3{
+    background-image: url(./property-03.jpg);
+}
+.pic4{
+    background-image: url(./property-04.jpg);
+}
+.pic5{
+    background-image: url(./property-05.jpg);
+}
+.pic6{
+    background-image: url(./property-06.jpg);
+}
+.pic7{
+    background-image: url(./property-03.jpg);
+}
+.pic8{
+    background-image: url(./property-02.jpg); 
+}
+.pic9{
+    background-image: url(./property-01.jpg);
+}
+.number-main{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 100px;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid black;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+}
+.main-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    margin-top: 150px;
+}
